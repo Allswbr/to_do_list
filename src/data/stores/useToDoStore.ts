@@ -21,6 +21,11 @@ export const useToDoStore = create<ToDoStore>((set, get) =>({
                 id:'fffffffffff',
                 title: 'Дефолтная таска',
                 createAt: 343243
+            },
+            {
+                id:'fffffffffffffff',
+                title: 'Дефолтная таска 2',
+                createAt: 343243324
             }
         ],
         createTask: (title: string) => {
