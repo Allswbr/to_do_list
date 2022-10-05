@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Roboto:wght@400;500&display=swap');
+
+body {
+    font: 16px/1.4 'Roboto', sans-serif;
+    // Внешний фон
+    background: #3F72AF;
+    // Минимальная высота окна
+    min-height: 100vh;
+    padding: 1rem;
+    // Чтобы высота определилась без скрола
+    box-sizing: border-box;
+    // ВСё что внутри padding - центрируем с помощью flex
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
